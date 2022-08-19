@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+  min-width: 100vh;
+}
+body{
+    background-color: #323437;
+  min-width: 100vh;
+}
+.deez-client-header-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  position: fixed;
+  transform: translateX(815px);
+}
+.deez-client-header{
+    font-size: 50px;
+    color: white;
+}
+.nav-list-con{
+margin-top: 80px;
+transform: translateX(-125px);
+float: right;
+}
+.min{
+transform: translateY(6px);
+    max-width: 40px;
+}
+span{
+    opacity: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.twitter-cont{
+    background-color: #1DA1F2;
+padding: 15px;
+border-radius: 10px;
+    transition: all 200ms ease-in-out; 
+}
+.twitter a{
+    color: black;
+}
+.yt-cont{
+        background-color: #FF0000;
+padding: 15px;
+border-radius: 10px;
+margin-top: 5px;
+    transition: all 200ms ease-in-out;
+}
+.youtube a {
+    color: white;
+}
+.fa-twitter{
+    transform: translateX(16px);
+}
+.insta-cont{
+background-color: #fe4164;
+padding: 15px;
+border-radius: 10px;
+margin-top: 5px; 
+    transition: all 200ms ease-in-out;
+}
+.fa-instagram{
+    transform: translateX(6px);
+}
+.insta a {
+    color: purple;
+    font-size: 17px;
+}
+.fa-youtube{
+    transform: translateX(7px);
+}
+.social-medias-header{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+.yt-cont:hover{
+    transform: scale(0.9);
+    filter: brightness(0.8);
+}
+.insta-cont:hover{
+    transform: scale(0.9);
+        filter: brightness(0.8);
+}
+.twitter-cont:hover{
+    transform: scale(0.9);
+        filter: brightness(0.8);
+}
+.modal-abt-us{
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 10px;
+background: white;
+padding: 40px;
+  z-index: 10;
+  max-width: 800px;
+top: 50%;
+left: 50%; 
+transform: translate(-50%, -50%);
+width: 70%;
+position: absolute;
+}
+.modal-title{
+    color: black;
+    font-size: 1.75rem;
+}
+.modal-body{
+    color: black;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.overlay{
+      position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  z-index: 5;
+}
+.modal-abt-us-close-con{
+    position: relative;
+ transform: translateY(-30px);
+
+
+}
+.modal-abt-us-close{
+    
+
+    padding: 8px;
+}
+.hidden{
+    display: none;
+}
+.abt-us-btn{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:59.5px;
+    transition: 200ms all ease-in-out;
+    box-shadow: 12px 7px 40px 1px;
+}
+.show-abt-modal{
+    padding: 10px;
+}
+.videogames-list-con{
+transform: translateY(265px);
+margin-left: 50px;
+
+}
+.videogames-header-con{
+transform: translateX(5px);
+        font-size: 40px;
+    margin-bottom: 10px;
+    color: #39ff14;
+}
+.abt-us-btn:hover{
+    transform: scale(0.9);
+    filter: brightness(0.9);
+}
+.speed-racing-pro-list-con{
+    transition: 200ms all ease-in-out;
+}
+.spr-ol{
+margin-top:20px;
+}
+.spr-li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #39ff14;
+    background: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.zombs-royale-con{
+    margin-top: 10px;
+position: absolute;
+transition: 200ms all ease-in-out;
+}
+.zombs-ol{
+margin-top: 20px;
+}
+.zombs-li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #39ff14;
+    background: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.minecraft-con{
+    transform:translateY(74px);
+    transition: 200ms all ease-in-out;
+    margin-top: 10px;
+}
+.minecraft-con a {
+    background: black;
+    border-radius: 10px;
+    padding: 15px;
+    color: #39ff14;
+    font-size: 20px;
+}
+
+.ov1-con{
+    margin-top: 30px;
+    transition: 200ms ease-in-out all;
+}
+.fa-car {
+transition: 200ms ease-in-out all;
+}
+.fa-flag-checkered{
+transition: 200ms ease-in-out all;
+}
+.fa-biohazard{
+    transition: 200ms ease-in-out all;
+}
+.fa-cube{
+    transition: 200ms ease-in-out all;
+}
+.fa-user-group{
+    transition: 200ms ease-in-out all;
+}
+.speed-racing-pro-list-con a:hover .fa-flag-checkered{
+    transform: translateY(-5px);
+}
+.zombs-royale-con a:hover .fa-biohazard {
+   transform: translateY(-5px);
+}
+.minecraft-con a:hover .fa-cube {
+   transform: scale(1.5);
+}
+.ov1-con a:hover .fa-user-group{
+    transform: translateX(20px);
+}
+.slope-con{
+  margin-top: 30px;
+}
+.fa-bowling-ball{
+  transition: 200ms ease-in-out all;
+}
+.slope-con a:hover .fa-bowling-ball{
+  transform: translateY(10px);
+}
+.one-hund-vh{
+min-height: 100vh;
+min-width: 100vh;
+}
+/* iPhone XR */
+@media (max-width:414px){
+    .deez-client-header-con{
+transform: translateX(70px);
+    }
+    .abt-us-btn{
+margin-top: 150px;
+        margin-left: 135px;
+    }
+    .nav-list-con{
+        transform: translateX(-580px);
+        margin-top: 650px;
+    }
+
+}
+/* iPhone SE */
+@media (max-width: 375px){
+.nav-list-con{
+    transform: translateX(-350px);
+}
+.abt-us-btn{
+    transform: translateX(-25px);
+}
+nav{
+    transform: scale(0.8);
+}
+}

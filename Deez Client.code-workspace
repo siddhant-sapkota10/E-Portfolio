@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\..\\OneDrive\\Documents\\E-Portfolio"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Deez Client"
+  }
+}

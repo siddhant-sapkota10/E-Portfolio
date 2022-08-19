@@ -1,0 +1,23 @@
+{
+  "folders": [
+	{
+		"name": "Modal Window",
+		"path": "..\\..\\..\\Modal Window"
+	},
+	{
+		"name": "E-Portfolio",
+		"path": "."
+	},
+	{
+		"name": "Scoping Practice",
+		"path": "..\\Scoping Practice"
+	},
+	{
+		"name": "Projects To Work On Myself",
+		"path": "..\\Projects To Work On Myself"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Projects To Work On Myself"
+  }
+}
