@@ -29,10 +29,15 @@ p {
   font-size: 16px;
 }
 
-a {
+a{
   text-decoration: none;
   position: relative;
   transition: opacity 300ms ease;
+}
+#contact-btn{
+  transform: translateY(-8px);
+  border: none;
+  cursor: pointer;
 }
 
 i:hover {
@@ -448,7 +453,9 @@ footer {
   nav {
     height: 68px;
   }
-
+#contact-btn{
+  transform: translateY(2px);
+}
   h1 {
     font-size: 28px;
   }
@@ -511,4 +518,60 @@ display: none;
     text-align: center;
     margin: 12px 0;
   }
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.span-email{
+  font-size: 20px;
+  margin-right: 10px;
+  color: #6030b1;
+}
+.span-phno{
+  font-size: 20px;
+  margin-right: 10px;
+  color: #6030b1;
+}
+.span-insta{
+  font-size: 20px;
+  margin-right: 10px;
+  color: #6030b1;
+}
+.fa-phone{
+  transform: translateX(3px);
+}
+.fa-instagram{
+  transform: translateX(3px);
+}
+.modal p {
+  margin-bottom: 15px;
+}
+.hidden{
+  display: none;
+}
+.close-modal{
+  padding: 10px;
+}
+.modal-header{
+  transform: translateY(-50px);
 }
